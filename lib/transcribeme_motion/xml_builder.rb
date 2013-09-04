@@ -5,10 +5,8 @@ module TranscribeMe
 
     attr_reader :options
 
-    DEFAULT_XML_HEADER = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
-
-    def initialize(options = {})
-      @options = options
+    def initialize(operation, message = {})
+      @operation, @message = operation, message
     end
 
   end

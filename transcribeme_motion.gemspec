@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = TranscribeMeMotion::VERSION
   spec.authors       = ['Caleb Tutty']
   spec.email         = ['caleb@prettymint.co.nz']
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = 'TranscribeMe SOAP API wrapper for RubyMotion'
+  spec.summary       = 'Using async NSURLConnection APIs from BubbleWrap to use the TranscribeMe API in RubyMotion projects'
   spec.homepage      = "http://tuttinator.github.io/transcribeme_motion/"
   spec.license       = 'MIT'
 
