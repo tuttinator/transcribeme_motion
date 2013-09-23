@@ -10,6 +10,9 @@ module TranscribeMe
     # 
     attr_reader :endpoint, :namespace
 
+    # Public: Initializes the Suds class
+    # options - a Hash of params
+    #
     def initialize(options = {})
       @endpoint, @namespace = options[:endpoint], options[:namespace]
       @soap_action_prefix = "#{@endpoint}/I#{@namespace.match(/\/([A-Za-z]+)\.svc/)[1]}"
